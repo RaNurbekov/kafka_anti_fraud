@@ -122,4 +122,8 @@ kafka-fraud-streaming/
 - [**fraud-detection-api**](https://github.com/RaNurbekov/fraud-detection-api) — REST API с LightGBM + Redis Feature Store + A/B Testing
 - [**credit-risk-api**](https://github.com/RaNurbekov/credit-scoring-ml-api.) — Кредитный скоринг с MLflow + SHAP + Evidently AI
 
+<<<<<<< HEAD
 > 💡 **Production-интеграция:** Consumer из этого проекта может вызывать `/predict` эндпоинт `fraud-detection-api` для ML-инференса вместо Rule-Based логики — замыкая полный real-time пайплайн.
+=======
+> 💡 **Production-интеграция:** Consumer из этого проекта может вызывать `/predict` эндпоинт `fraud-detection-api` для ML-инференса вместо Rule-Based логики — замыкая полный real-time пайплайн.
+>>>>>>> dc0b3e3445f83555889f11721527a40fa2ece94b
